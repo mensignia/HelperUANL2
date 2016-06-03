@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menuprincipal"
+
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.69"
+        android:background="@drawable/herramientas" />
+
+    <RelativeLayout
+        android:layout_width="88dp"
+        android:layout_height="18dp"
+        android:layout_gravity="center_horizontal"></RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        android:text="Mantenimiento"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="30sp"
+        android:entries="@array/spinner_edi"
+        android:prompt="@string/edi_prompt" />
+
+    <Spinner
+        android:id="@+id/spinnerEdificio"
+        android:layout_width="349dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:entries="@array/spinner_edi"
+        android:prompt="@string/edi_prompt"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        android:popupBackground="#acf7f0"
+        android:backgroundTintMode="screen"
+        android:focusable="true" />
+
+    <Spinner
+        android:id="@+id/spinnerSalon"
+        android:layout_width="349dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        android:prompt="@string/salon_prompt"
+        android:popupBackground="#acf7f0"
+        android:entries="@array/spinner_salon"
+        android:backgroundTintMode="screen"/>
+    <Spinner
+        android:id="@+id/spinnerCaso"
+        android:layout_width="349dp"
+        android:layout_height="45dp"
+        android:popupBackground="#acf7f0"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        android:entries="@array/necesidad_mant"
+        android:prompt="@string/caso_prompt"
+        android:backgroundTintMode="screen"/>
+
+    <Button
+        android:id="@+id/btnenviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

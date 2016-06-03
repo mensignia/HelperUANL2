@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">HelperUANL</string>
+    <string name="action_settings">Settings</string>
+    <string name="edi_prompt">Elige el edificio</string>
+    <string name="salon_prompt">Elige el salon</string>
+    <string name="caso_prompt">Elige tu necesidad</string>
+    <string name="empleado">Empleado</string>
+    <string name="alumno">Alumno</string>
+
+    <string-array name="spinner_edi">
+        <item>Elige el Edificio</item>
+        <item>Edificio 1</item>
+        <item>Edificio 2</item>
+        <item>Edificio 3</item>
+        <item>Edificio 4</item>
+        <item>Edificio 5</item>
+        <item>Edificio 6</item>
+        <item>Edificio 7</item>
+        <item>Edificio 8</item>
+        <item>Edificio 9</item>
+        <item>Edificio 10</item>
+        <item>Edificio 11</item>
+    </string-array>
+
+    <string-array name="spinner_salon">
+        <item>Elige el Salon</item>
+        <item>Salon XX01</item>
+        <item>Salon XX02</item>
+        <item>Salon XX03</item>
+        <item>Salon XX04</item>
+        <item>Salon XX05</item>
+        <item>Salon XX06</item>
+        <item>Salon XX07</item>
+        <item>Salon XX08</item>
+        <item>Salon XX09</item>
+        <item>Salon XX10</item>
+        <item>Salon XX11</item>
+        <item>Salon XX12</item>
+        <item>Salon XX13</item>
+
+    </string-array>
+
+    <string-array name="necesidad_mant">
+        <item>Elige tu necesidad</item>
+        <item>Aire descompuesto</item>
+        <item>Escritorio dañado</item>
+        <item>Ventana Rota</item>
+        <item>Mesa-banco roto</item>
+        <item>Mant. a Puerta</item>
+        <item>Conexion inservible</item>
+
+
+    </string-array>
+
+    <string-array name="necesidad_limpieza">
+        <item>Elige tu necesidad</item>
+     <item>Liquido derramado</item>
+        <item>Basura Tirada</item>
+        <item>Ventanas sucias</item>
+        <item>Escritorio Sucio</item>
+        <item>Bote de basura ausente</item>
+    </string-array>
+
+    <string-array name="necesidad_salud">
+        <item>Elige tu necesidad</item>
+        <item>Alumno Enfermo</item>
+        <item>Alumno desmayado</item>
+        <item>Solicitar Ambulancia</item>
+
+    </string-array>
+
+    <string-array name="necesidad_libros">
+        <item>Elige tu necesidad</item>
+        <item>Solicitar Proyector</item>
+        <item>Borrador para pintarron</item>
+        <item>Marcador para pintarron</item>
+        <item>Hojas de revolucion</item>
+
+    </string-array>
+</resources>

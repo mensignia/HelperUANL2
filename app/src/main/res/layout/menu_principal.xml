@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menuprincipaledit"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageButton
+        android:id="@+id/mantenimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="59dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="173dp"
+        android:background="@drawable/herramientas"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/limpieza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/mantenimiento"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:background="@drawable/intendente" />
+
+    <ImageButton
+        android:id="@+id/salud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/cr"
+        android:layout_below="@+id/mantenimiento"
+        android:layout_alignLeft="@+id/mantenimiento"
+        android:layout_alignStart="@+id/mantenimiento" />
+
+    <ImageButton
+        android:id="@+id/libros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/libros"
+        android:layout_alignTop="@+id/salud"
+        android:layout_alignLeft="@+id/limpieza"
+        android:layout_alignStart="@+id/limpieza" />
+
+</RelativeLayout>

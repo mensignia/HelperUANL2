@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pantalladeinicio">
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:id="@+id/emes"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/btnstart"
+        android:layout_alignLeft="@+id/btnstart"
+        android:layout_alignStart="@+id/btnstart">
+        <RadioButton android:id="@+id/radio_alumno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alumno"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/radio_empleado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empleado"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:background="#de5a6dec"
+        android:text="Iniciar" />
+</RelativeLayout>
